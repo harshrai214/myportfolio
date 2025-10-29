@@ -1,91 +1,72 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Harsh Rai",
+  title: "Frontend Developer",
+  description: "Portfolio website of Harsh Rai - modern frontend development with React and JavaScript",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "harshrai094@gmail.com", // <-- update with your actual email
+    linkedin: "www.linkedin.com/in/harshrai06", // <-- update with your LinkedIn profile
+    github: "https://github.com/harshrai214", // <-- update with your GitHub username
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I am a Frontend Developer specializing in building modern, responsive web applications with React, JavaScript, and CSS. Currently managing the frontend for Raygain Technologies' DIPI (FIPI) Awards portal, I focus on excellent user experience, adaptability, and collaborative problem-solving.",
+  skills: [
+    "Javascript",
+    "React",
+    "CSS",
+    "Responsive Design",
+    "UI/UX",
+    "Git",
+    "Recharts",
+
+  ],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "FIPI Awards Portal",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Comprehensive applicant and admin dashboards for 19 award categories, built with React and focused on streamlined, responsive, user-friendly workflows.",
+      link: "https://www.award.fipi.org.in/fipiawards", // Example, update if you have a direct project/demo link
+      skills: ["React", "CSS", "Frontend Architecture"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Stock Market Dashboard",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A multi-component stock market dashboard built in React for monitoring live market trends and analytics.",
+      link: "#", // update with public link or GitHub repo if available
+      skills: ["React", "Data Visualization", "API Integration"],
     },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
+   {
+  name: "AI Interview System",
+  description:
+    "Built an AI-powered interview simulation using Python, SVM, and deep learning for speech and facial emotion recognition, with automatic coding question generation and detailed feedback analytics.",
+  link: "#", // Add your demo or GitHub link if available
+  skills: ["Python", "SVM", "CNN-LSTM", "Xception", "SER", "FER", "AI"],
+},
+
+
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
-      bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
+      company: "Raygain Technologies",
       title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      dateRange: "May 2025 - Present",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Lead the frontend for DIPI (FIPI) Award Portal across applicant and admin workflows.",
+        "Implemented responsive dashboards, category-based user journeys, and advanced CSS layouts.",
+        "Collaborated closely with backend and design teams to deliver scalable solutions.",
       ],
     },
+    // Add previous internships or freelance experiences if you wish...
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "ABES Engineering College",
+      degree: "B.Tech in Information Technology",
+      dateRange: "2021 - 2025",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Graduated with distinction.",
+        "Completed major projects in web development.",
+        "Active participant in UI/UX and coding competitions.",
       ],
     },
   ],
