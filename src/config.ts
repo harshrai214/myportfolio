@@ -32,14 +32,14 @@ export const siteConfig = {
       name: "Stock Market Dashboard",
       description:
         "A multi-component stock market dashboard built in React for monitoring live market trends and analytics.",
-      link: "#", // update with public link or GitHub repo if available
+      link: "https://github.com/harshrai214/Stock_Market_dashboard.git", // update with public link or GitHub repo if available
       skills: ["React", "Data Visualization", "API Integration"],
     },
    {
   name: "AI Interview System",
   description:
     "Built an AI-powered interview simulation using Python, SVM, and deep learning for speech and facial emotion recognition, with automatic coding question generation and detailed feedback analytics.",
-  link: "#", // Add your demo or GitHub link if available
+  link: "https://github.com/harshrai214/AI-Interview-ML", // Add your demo or GitHub link if available
   skills: ["Python", "SVM", "CNN-LSTM", "Xception", "SER", "FER", "AI"],
 },
 
