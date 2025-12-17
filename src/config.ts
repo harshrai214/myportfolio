@@ -51,7 +51,7 @@ export const siteConfig = {
       title: "Frontend Developer",
       dateRange: "May 2025 - Present",
       bullets: [
-        "Lead the frontend for DIPI (FIPI) Award Portal across applicant and admin workflows.",
+        "Lead the frontend for FIPI Award Portal across applicant and admin workflows.",
         "Implemented responsive dashboards, category-based user journeys, and advanced CSS layouts.",
         "Collaborated closely with backend and design teams to deliver scalable solutions.",
       ],
