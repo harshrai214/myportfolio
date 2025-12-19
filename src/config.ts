@@ -49,7 +49,7 @@ export const siteConfig = {
     {
       company: "Raygain Technologies",
       title: "Frontend Developer",
-      dateRange: "May 2025 - Present",
+      dateRange: "March 2025 - Present",
       bullets: [
         "Lead the frontend for FIPI Award Portal across applicant and admin workflows.",
         "Implemented responsive dashboards, category-based user journeys, and advanced CSS layouts.",
